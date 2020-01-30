@@ -17,6 +17,8 @@ Plus I would love to see multiple sizes so I can use `srcset`.
 I wanted to focus on the UI as much as possible.
 It has a simple layout and styles but it works fairly well.
 The code is also pretty readable and organized relatively well.
+I'm a big fan of a "skeleton" loading view, so I attempted a simple component.
+Refresh the page a few times to check it out.
 
 ## Code I am least proud of
 I couldn't figure out how to properly filter the products (the FIXME).
@@ -28,6 +30,7 @@ There could be a Product child component, and a component for the filtering.
 ## Tradeoffs
 I didn't test in IE11...
 It would have been awesome to dive into the API more, but I didn't want to get that far in the weeds.
+In the same vein, I didn't use that much data. I should have added at least a price on the card.
 I love pagination, so creating some dynamic routes with the total products count would have been fun.
 Writing at least a few unit tests...
 
