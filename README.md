@@ -7,7 +7,7 @@ It felt like the natural choice for this project.
 
 ## Challenges
 I am still a novice with Vue, so I had to figure out how best to structure the project.
-I'm still not sold on scoped CSS, so I use a small stylesheet and some scoped.
+I'm still not sold on scoped CSS, so I used a small stylesheet and some scoped.
 If I was to refactor this, I would start with the images.
 I would demand more consistency and establish guidelines.
 Many of the images are poorly cropped with a ton of whitespace.
