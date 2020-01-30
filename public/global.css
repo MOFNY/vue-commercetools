@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: 100%/1.5 "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.commercetools-header,
+.commercetools-footer {
+  background: #000;
+  padding: 1em;
+}
+
+.commercetools-header__title {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+}
+
+.commercetools-footer {
+  margin-top: 1em;
+}
+
+.para-primary {
+  max-width: 65ch;
+  font-size: 1.25em;
+}
+
+.para-primary--white {
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.commercetools-skeleton-total-products {
+  height: 36px;
+  width: 275px;
+  margin-top: 1em;
+  margin-left: 1.25em;
+  background: #d5d5d5;
+}
+
+.commercetools-skeleton-filter {
+  height: 53px;
+  width: 281px;
+  margin-top: 1em;
+  margin-left: 1.25em;
+  background: #d5d5d5;
+}
+
+.commercetools-skeleton-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.commercetools-skeleton-products__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: calc(25% - 2.5em);
+  margin: 1.25em;
+  padding: 0.5em;
+  background: #fff;
+  text-align: center;
+  border-radius: 0 0 0.5em 0.5em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+    0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12),
+    0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.commercetools-skeleton-products__header {
+  height: 24px;
+  background: #d5d5d5;
+}
+
+.commercetools-skeleton-products__image {
+  margin-top: 1em;
+  height: 200px;
+  background: #d5d5d5;
+}
