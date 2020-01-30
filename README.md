@@ -21,7 +21,7 @@ I'm a big fan of a "skeleton" loading view, so I attempted a simple component.
 Refresh the page a few times to check it out.
 
 ## Code I am least proud of
-I couldn't figure out how to properly filter the products (the FIXME).
+I couldn't figure out how to filter the products in a "Vue" way (the FIXME).
 I would like to bring in state management as it grows in complexity.
 Creating a product detail view also would have been valuable, but that would have diminished my focus on the Products view.
 I would have liked to break up the Products component more.
